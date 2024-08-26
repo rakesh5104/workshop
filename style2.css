@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+.one, .two, .three{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid rgb(245, 239, 199);
+}
+.heading h2{
+    text-align: center;
+    font-family: cursive;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2%;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.box img{
+    width: 25%;
+    margin: 2%;
+}
+.box{
+    display: flex;
+    width: 80%;
+    margin-top: 15%;
+    border-radius: 0.5rem;
+    margin-left: 8%;
+    height: 50vh;
+    background-color: rgba(230, 237, 237, 0.829);
+}
+.text1{
+    margin-top: 9%;
+}
+.one{
+    background-image: url(images/img1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+ .two{
+    background-image: url(images/img4.avif);
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .two-box img{
+    width: 35%;
+    margin: 2%;
+ }
+ .two-box{
+    display: flex;
+    background-color:rgba(230, 237, 237, 0.829);
+    border-radius: 0.5rem;
+    height: 50vh;
+    width: 80%;
+    margin-top: 8%;
+    margin-left: 8%;
+ }
+ .two-box .text2{
+    padding-left: 3%;
+    margin-top: 9%;
+ }
+
+
+
+ .three{
+    background-image: url(images/img3.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center ;
+ }
+ .box3{
+    display: flex;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 8%;
+    height: 50vh;
+    background-color: rgba(230, 237, 237, 0.829);
+    border-radius: 0.5rem;
+ }
+ .box3 img{
+    width: 25%;
+    margin: 2%;
+ }
+ 
